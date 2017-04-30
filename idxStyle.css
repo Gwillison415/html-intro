@@ -1,0 +1,45 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color:  blue;
+}
+
+#boxCap {
+  opacity: inherit;
+  height: auto;
+  width: auto;
+  word-wrap: break-word;
+}
+
+ol li:nth-child(odd){
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+ol li:nth-child(even) {
+  font-style: italic;
+}
+.grid-container {
+       width : 100%;
+       max-width : 1200px;
+       box-sizing: border-box;
+   }
+
+   .row:before,
+    .row:after {
+        content:"";
+        display: table ;
+        clear: both;
+    }
+
+    [class*='col-'] {
+       float: right;
+       min-height: 200px;
+       width: 33%;
+       padding: 15px;
+       background-color: green;
+   }
+
+   .outline, .outline *{
+        outline: 1px solid #F6A1A1;
+    }
